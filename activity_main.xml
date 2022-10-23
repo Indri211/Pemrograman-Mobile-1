@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertikal_margin"
+    android:paddingTop="@dimen/activity_vertikal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin">
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Scan Code QR"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama" />
+
+        <TextView
+            android:id="@+id/textViewNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:TextAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="INDRI LESTARI" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Kelas" />
+
+        <TextView
+            android:id="@+id/textViewKelas"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:TextAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="TI.21.C2" />
+
+        <TextView
+            android:id="@+id/textViewNIM"
+            android:layout_width="wrap_content"
+            android:layout_height="292dp"
+            android:TextAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="312110282" />
+    </LinearLayout>
+
+</RelativeLayout>
